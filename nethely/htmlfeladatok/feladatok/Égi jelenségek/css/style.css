@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+	
+	height: 400px;
+	background-color: #cccccc;
+    background-image: radial-gradient(rgb(49, 21, 74), rgb(202, 82, 3));
+	font-family: IBM Plex Mono;
+}
+
+#fejlec {
+	width: 100%;
+	height: 100%;
+}
+
+#felirat {
+	top: 10px;
+    right: 15vh;
+    font-size: 3vw;
+    position: absolute;
+    text-align: right;
+    text-shadow: 0px 2px 5px rgba(255, 213, 130, 1);
+    width: 100%;
+	font-weight: bold;
+	font-variant: small-caps;
+	color:rgb(13,1,81);
+}
+
+nav li {
+	border-right: 3px;	
+	border-right-style: dotted;
+	border-right-color: orange;
+	padding: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+#főcím {
+	text-shadow: 5px 5px 10px rgb(255, 60, 0);
+}
+
+h2{
+	color: black;
+	text-shadow: 5px 5px 10px rgb(255, 60, 0);
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+ol li {
+	margin-left: 25px;
+}
+
+.hobbi{
+	background-color: #ffffff;
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+tr td:first-child {
+	font-weight: bold;
+}
+
+.lablec {
+	background-color: rgb(255,242,207);
+}
+
+.lablec a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.lablec a:hover {
+	text-transform: uppercase;
+}
+
+.navbar {
+	font-variant: small-caps;
+	font-size: 1em;
+	margin-left: 0;
+	font-size: 120%;
+}
+
+#nap {
+	list-style-image: url(../img/nap.png);
+	margin-left: 25px;
+}
+
+p{
+	float: unset;
+}

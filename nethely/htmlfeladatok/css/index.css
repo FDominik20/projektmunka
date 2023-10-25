@@ -1,0 +1,48 @@
+.fakeimg {
+    height: 1px;
+    background: #eee;
+    
+}
+.pfp{
+  height: 300px;
+}
+#h1 {
+text-align: center
+}
+
+#progit{
+  width: 700px;
+  height: 900px;
+  margin: auto;
+}
+
+.kozep{
+  text-align: center;
+}
+
+.videok{
+  float:left;
+  margin-right:20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
