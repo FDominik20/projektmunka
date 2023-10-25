@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile /var/www/customers/vh-/web/home/password/.4_csoport_password
+AuthName "Az oldalam jelszót kér a belépéshez!"
+Require valid-user
